@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
-
 import Dropzone from 'react-dropzone';
 import { DropContainer, UploadMessage } from './styles';
+
 
 interface UploadProps {
   onUpload: Function;
